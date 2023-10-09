@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Autosugetion_SelectOption 
 {
-
+ // Test comment added 
 	public static void main(String[] args) throws InterruptedException 
 	{
 		//WebDriver driver = new ChromeDriver();
@@ -23,6 +23,7 @@ public class Autosugetion_SelectOption
 		driver.get("https://www.google.com/"); //wait for 2sec
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
+		System.out.println("Hello world");
 
 		//Search redmi on search filed on google
 
